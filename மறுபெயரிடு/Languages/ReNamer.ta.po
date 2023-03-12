@@ -707,7 +707,7 @@ msgstr "கீழே"
 #: tform_main.menuitem_moveup.caption
 msgctxt "TFORM_MAIN.MENUITEM_MOVEUP.CAPTION"
 msgid "Up"
-msgstr "அப்"
+msgstr "மேலே"
 
 #: tform_main.menuitem_moving.caption
 msgid "Move"
@@ -953,7 +953,7 @@ msgstr "கீழே"
 #: tform_main.toolbutton_moveuprule.caption
 msgctxt "tform_main.toolbutton_moveuprule.caption"
 msgid "Up"
-msgstr "அப்"
+msgstr "மேலே"
 
 #: tform_main.toolbutton_options.caption
 msgctxt "tform_main.toolbutton_options.caption"
@@ -967,7 +967,7 @@ msgstr "அகற்று"
 
 #: tform_main.vst_files.header.columns[0].text
 msgid "State"
-msgstr "மாநிலம்"
+msgstr "நிலை"
 
 #: tform_main.vst_files.header.columns[10].text
 msgid "Modified"
