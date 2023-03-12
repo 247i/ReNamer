@@ -93,7 +93,7 @@ msgstr "இங்கே உங்கள் குறியீட்டைச் 
 
 #: rulepascalscriptframe.sholdtoinsertscriptinline
 msgid "Hold %s when loading a script to insert it inline"
-msgstr "ஸ்கிரிப்டை இன்லைன் செருகுவதற்கு %sஐ நிறுத்து"
+msgstr "கையெழுத்துப்படிவத்தை உள் செருகுவதற்கு %sஐ நிறுத்து"
 
 #: rulepascalscriptframe.spressforcodecompletion
 msgid "Press %s for code completion"
@@ -1708,7 +1708,7 @@ msgstr "ஆன்லைன் உதவி (F1)"
 #: tframe_rulepascalscript.toolbutton_scripts.caption
 msgctxt "TFRAME_RULEPASCALSCRIPT.TOOLBUTTON_SCRIPTS.CAPTION"
 msgid "Scripts"
-msgstr "ஸ்கிரிப்டுகள்"
+msgstr "கையெழுத்துப்படிவங்கள்"
 
 #: tframe_rulepascalscript.toolbutton_scripts.hint
 msgctxt "TFRAME_RULEPASCALSCRIPT.TOOLBUTTON_SCRIPTS.HINT"
@@ -1798,7 +1798,7 @@ msgstr "குறிப்பு: $1 ஐ பயன்படுத்தவும
 
 #: tframe_rulerearrange.rb_usingdelimiters.caption
 msgid "Delimiters"
-msgstr "டிலிமிட்டர்ஸ்"
+msgstr "பிரிப்பான்கள்"
 
 #: tframe_rulerearrange.rb_usingexactpatternofdelimiters.caption
 msgid "Exact pattern of delimiters"
@@ -1820,7 +1820,7 @@ msgstr "மெட்டா டேக் செருகவும் (Ctrl+Ins)"
 
 #: tframe_rulereformatdate.checkbox_adjusttime.caption
 msgid "Adjust time by:"
-msgstr ""
+msgstr "நேரத்தைச் சரிசெய்யவும்"
 
 #: tframe_rulereformatdate.checkbox_skipextension.caption
 msgctxt "TFRAME_RULEREFORMATDATE.CHECKBOX_SKIPEXTENSION.CAPTION"
@@ -1871,7 +1871,7 @@ msgstr "குறிப்பு: $1 பயன்படுத்துக. $9 �
 
 #: tframe_ruleregex.label4.caption
 msgid "Expression:"
-msgstr "எக்ஸ்பிரஷன்:"
+msgstr "வெளிபாடு:"
 
 #: tframe_ruleregex.label5.caption
 msgctxt "tframe_ruleregex.label5.caption"
@@ -1895,7 +1895,7 @@ msgstr "ஆன்லைன் உதவி (F1)"
 #: tframe_ruleremove.checkbox_casesensitive.caption
 msgctxt "tframe_ruleremove.checkbox_casesensitive.caption"
 msgid "Case sensitive"
-msgstr "கேஸ் முக்கியம்"
+msgstr "வழக்கு உணர்திறன்"
 
 #: tframe_ruleremove.checkbox_skipextension.caption
 msgctxt "TFRAME_RULEREMOVE.CHECKBOX_SKIPEXTENSION.CAPTION"
@@ -1943,7 +1943,7 @@ msgstr "பல உருப்படிகளை பிரிக்கவும�
 #: tframe_rulereplace.checkbox_casesensitive.caption
 msgctxt "TFRAME_RULEREPLACE.CHECKBOX_CASESENSITIVE.CAPTION"
 msgid "Case sensitive"
-msgstr "கேஸ் முக்கியம்"
+msgstr "வழக்கு உணர்திறன்"
 
 #: tframe_rulereplace.checkbox_skipextension.caption
 msgctxt "TFRAME_RULEREPLACE.CHECKBOX_SKIPEXTENSION.CAPTION"
@@ -2076,7 +2076,7 @@ msgstr "ஆங்கிலம்:"
 #: tframe_rulestrip.checkbox_casesensitive.caption
 msgctxt "TFRAME_RULESTRIP.CHECKBOX_CASESENSITIVE.CAPTION"
 msgid "Case sensitive"
-msgstr "கேஸ் முக்கியம்"
+msgstr "வழக்கு உணர்திறன்"
 
 #: tframe_rulestrip.checkbox_stripbrackets.caption
 msgid "Brackets:"
@@ -2235,7 +2235,7 @@ msgstr "AVI காலம் வினாடிகளில்"
 
 #: umetatags.s_metatag_avi_framespersecond
 msgid "AVI Frames per Second"
-msgstr "ஏவிஐ ஃபிரேம்ஸ் பார் செகண்ட்"
+msgstr "ஏவிஐ சட்டங்கள் ஒரு நொடிக்கு"
 
 #: umetatags.s_metatag_avi_height
 msgid "AVI Height in Pixels"
@@ -2243,7 +2243,7 @@ msgstr "பிக்சல்களில் ஏவி உயரம்"
 
 #: umetatags.s_metatag_avi_totalframes
 msgid "AVI Total amount of Frames"
-msgstr "ஏவிஐ மொத்த அளவு ஃப்ரேம்ஸ்"
+msgstr "ஏவிஐ மொத்த அளவு சட்டங்கள்"
 
 #: umetatags.s_metatag_avi_videocodec
 msgid "AVI Video Codec"
@@ -2391,11 +2391,11 @@ msgstr "FLAC கலைஞர்"
 
 #: umetatags.s_metatag_flac_discno
 msgid "FLAC Disc Number"
-msgstr "FLAC டிஸ்க் எண்"
+msgstr "FLAC வட்டு எண்"
 
 #: umetatags.s_metatag_flac_disctotal
 msgid "FLAC Total Discs"
-msgstr "FLAC மொத்த டிஸ்க்குகள்"
+msgstr "FLAC மொத்த வட்டுகள்"
 
 #: umetatags.s_metatag_flac_genre
 msgid "FLAC Genre"
@@ -2498,11 +2498,11 @@ msgstr "எம்பி3 கலைஞர்"
 
 #: umetatags.s_metatag_mp3_discno
 msgid "MP3 Disc Number"
-msgstr "எம்பி3 டிஸ்க் எண்"
+msgstr "எம்பி3 வட்டு எண்"
 
 #: umetatags.s_metatag_mp3_disctotal
 msgid "MP3 Total Discs"
-msgstr "எம்பி3 மொத்த டிஸ்க்குகள்"
+msgstr "எம்பி3 மொத்த வட்டுகள்"
 
 #: umetatags.s_metatag_mp3_genre
 msgctxt "mymetatags.s_metatag_mp3_genre"
@@ -2521,7 +2521,7 @@ msgstr "எம்பி3 டிராக் எண்"
 
 #: umetatags.s_metatag_mp3_tracktotal
 msgid "MP3 Total Tracks"
-msgstr "எம்பி3 மொத்த டிராக்ஸ்"
+msgstr "எம்பி3 மொத்த பாதைகள்"
 
 #: umetatags.s_metatag_mp3_year
 msgctxt "mymetatags.s_metatag_mp3_year"
@@ -2675,11 +2675,11 @@ msgstr "WMA கலைஞர்"
 
 #: umetatags.s_metatag_wma_discno
 msgid "WMA Disc Number"
-msgstr "WMA டிஸ்க் எண்"
+msgstr "WMA வட்டு எண்"
 
 #: umetatags.s_metatag_wma_disctotal
 msgid "WMA Total Discs"
-msgstr "WMA மொத்த டிஸ்க்ஸ்"
+msgstr "WMA மொத்த வட்டுகள்"
 
 #: umetatags.s_metatag_wma_genre
 msgid "WMA Genre"
@@ -2691,11 +2691,11 @@ msgstr "WMA தலைப்பு"
 
 #: umetatags.s_metatag_wma_trackno
 msgid "WMA Track Number"
-msgstr "WMA டிராக் எண்"
+msgstr "WMA பாதை எண்"
 
 #: umetatags.s_metatag_wma_tracktotal
 msgid "WMA Total Tracks"
-msgstr "WMA மொத்த டிராக்ஸ்"
+msgstr "WMA மொத்த பாதைகள்"
 
 #: umetatags.s_metatag_wma_year
 msgid "WMA Year"
@@ -2719,7 +2719,7 @@ msgstr "ஆங்கிலம் எழுத்துகள்"
 
 #: unumeralsystems.nsc_musicnotes
 msgid "Music notes"
-msgstr ""
+msgstr "இசை குறிப்புகள்"
 
 #: unumeralsystems.nsc_romannumerals
 msgid "Roman numerals"
@@ -2731,7 +2731,7 @@ msgstr "எளிய சீன"
 
 #: upascalscript.spscompile
 msgid "Pascal Script Compile"
-msgstr "பாஸ்கல் ஸ்கிரிப்ட் தொகுப்பி"
+msgstr "பாசுகல் கையெழுத்துப்படிவம் தொகுப்பி"
 
 #: upascalscript.spsexception
 msgid "Exception"
@@ -2739,7 +2739,7 @@ msgstr "விதிவிலக்கு"
 
 #: upascalscript.spsexecute
 msgid "Pascal Script Execute"
-msgstr "பாஸ்கல் உரையாக்கம் நிர்வாகி"
+msgstr "பாசுகல் உரையாக்கம் நிர்வாகி"
 
 #: upascalscript.spsincludedfilenotfound
 msgid "Included file not found: %s"
@@ -2896,31 +2896,31 @@ msgstr " %s நீளத்திற்கு சுழியத்தை ஒட
 
 #: urulesex.s_rules_adjusttimebynumdays
 msgid "Adjust time by %d days"
-msgstr ""
+msgstr "%d நாள் நேரத்தைச் சரிசெய்யவும்"
 
 #: urulesex.s_rules_adjusttimebynumhours
 msgid "Adjust time by %d hours"
-msgstr ""
+msgstr "%d மணி நேரத்தைச் சரிசெய்யவும்"
 
 #: urulesex.s_rules_adjusttimebynummilliseconds
 msgid "Adjust time by %d milliseconds"
-msgstr ""
+msgstr "%d மில்லிநெடிகள் நேரத்தைச் சரிசெய்யவும்"
 
 #: urulesex.s_rules_adjusttimebynumminutes
 msgid "Adjust time by %d minutes"
-msgstr ""
+msgstr "%d நிமையங்கள் நேரத்தைச் சரிசெய்யவும்"
 
 #: urulesex.s_rules_adjusttimebynummonths
 msgid "Adjust time by %d months"
-msgstr ""
+msgstr "%d மாத நேரத்தைச் சரிசெய்யவும்"
 
 #: urulesex.s_rules_adjusttimebynumseconds
 msgid "Adjust time by %d seconds"
-msgstr ""
+msgstr "%d நெடிகள் நேரத்தைச் சரிசெய்யவும்"
 
 #: urulesex.s_rules_adjusttimebynumyears
 msgid "Adjust time by %d years"
-msgstr ""
+msgstr "%d ஆண்டுகள் நேரத்தைச் சரிசெய்யவும்"
 
 #: urulesex.s_rules_after
 msgid "after"
@@ -2960,7 +2960,7 @@ msgstr "முன்னிணைப்பாக"
 
 #: urulesex.s_rules_as_suffix
 msgid "as Suffix"
-msgstr "சஃபிக்ஸ்"
+msgstr "பின்னொட்டாக"
 
 #: urulesex.s_rules_at_position
 msgid "at Position"
@@ -3330,7 +3330,7 @@ msgstr "நீங்கள் ஒரு விரைவு வழிகாட்
 
 #: ustrings.msg_browsefoldersstatus
 msgid "Folders: %d scanned, %d selected."
-msgstr "கோப்புறைகள்:%d ஸ்கேன் செய்யப்பட்டது,%d தேர்ந்தெடுக்கப்பட்டது."
+msgstr "கோப்புறைகள்:%d வருடப்பட்டது,%d தேர்ந்தெடுக்கப்பட்டது."
 
 #: ustrings.msg_browsegotofoldercaption
 msgctxt "mystrings.msg_browsegotofoldercaption"
@@ -3443,7 +3443,7 @@ msgstr "வெற்றிகரமாக தொகுக்கப்பட்�
 
 #: ustrings.msg_pascalscriptnoscripts
 msgid "No Saved Scripts were found!"
-msgstr "சேமிக்கப்படாத ஸ்கிரிப்டுகள் கண்டுபிடிக்கப்படவில்லை!"
+msgstr "சேமிக்கப்படாத கையெழுத்துப்படிவங்கள் கண்டுபிடிக்கப்படவில்லை!"
 
 #: ustrings.msg_pascalscriptsaveinvalid
 msgctxt "mystrings.msg_pascalscriptsaveinvalid"
@@ -3556,7 +3556,7 @@ msgstr "வரிசை வரிசைகளில் திணிப்பு�
 
 #: ustrings.msg_rulepascalscriptdescription
 msgid "Use this rule to script a user defined manipulations with filename."
-msgstr "இந்த விதிமுறையை ஒரு பயனீட்டாளர் வரையறுத்தலை ஸ்கிரிப்டில் எழுதவும்."
+msgstr "இந்த விதிமுறையை ஒரு பயனீட்டாளர் வரையறுத்தலை கையெழுத்துப்படிவத்தில் எழுதவும்."
 
 #: ustrings.msg_rulerandomizedescription
 msgid "Use this rule to insert random sequences of characters into the filename."
@@ -3725,7 +3725,7 @@ msgstr "வரி =%d, நிலை =%d, வலது =%d, தேர்வு =%
 
 #: ustrings.name_browsescripts
 msgid "Browse Scripts..."
-msgstr "ஸ்கிரிப்ட்களை உலாவுக ..."
+msgstr "கையெழுத்துப்படிவங்களை உலாவுக ..."
 
 #: ustrings.name_browsetranslits
 msgid "Browse Translits..."
@@ -3827,7 +3827,7 @@ msgstr "திணிப்பு"
 
 #: ustrings.name_rule_pascalscript
 msgid "Pascal Script"
-msgstr "பாஸ்கல் உரையாக்கம்"
+msgstr "பாசுகல் உரையாக்கம்"
 
 #: ustrings.name_rule_randomize
 msgid "Randomize"
