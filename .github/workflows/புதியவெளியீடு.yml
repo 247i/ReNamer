@@ -31,8 +31,8 @@ jobs:
       with:
         tag: current
         artifacts:
-            - "ReNamer.zip"
-            - "AntRenamer.zip"
+            "ReNamer.zip"
+            "AntRenamer.zip"
         name: மறுபெயரிடு
         body: புதிய மாற்றங்கள் அனைத்து அடங்கும்
 
