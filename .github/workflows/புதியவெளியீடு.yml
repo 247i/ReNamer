@@ -14,11 +14,14 @@ jobs:
       run: zip -qq -r ReNamer.zip மறுபெயரிடு
       working-directory: .
 
+    - name: எறும்புமறுபெயரிடு கட்டு
+      run: zip -qq -r AntRenamer.zip எறும்புமறுபெயரிடு
+      working-directory: .
 
     - name: மறுபெயரிடு நீக்கு
       uses: dev-drprasad/delete-tag-and-release@v0.2.1
       with:
-        tag_name: ReNamer
+        tag_name: current
         delete_release: true  
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -26,29 +29,9 @@ jobs:
     - name: மறுபெயரிடு வெளியீடு
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "ReNamer.zip"
-        tag: ReNamer
+        artifacts: "ReNamer.zip", "AntRenamer.zip"
+        tag: current
         name: மறுபெயரிடு
         body: புதிய மாற்றங்கள் அனைத்து அடங்கும்
 
-    - name: எறும்புமறுபெயரிடு கட்டு
-      run: zip -qq -r AntRenamer.zip எறும்புமறுபெயரிடு
-      working-directory: .
-
-
-    - name: எறும்புமறுபெயரிடு நீக்கு
-      uses: dev-drprasad/delete-tag-and-release@v0.2.1
-      with:
-        tag_name: AntRenamer
-        delete_release: true  
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: எறும்புமறுபெயரிடு வெளியீடு
-      uses: ncipollo/release-action@v1
-      with:
-        artifacts: "AntRenamer.zip"
-        tag: AntRenamer
-        name: எறும்புமறுபெயரிடு
-        body: புதிய மாற்றங்கள் அனைத்து அடங்கும்
 
