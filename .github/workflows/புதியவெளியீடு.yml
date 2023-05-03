@@ -11,7 +11,7 @@ jobs:
       uses: montudor/action-zip@v1
 
     - name: மறுபெயரிடு கட்டு
-      run: zip -qq -r ReNamer.zip மறுபெயரிடு எறும்புமறுபெயரிடு
+      run: zip -qq -r App.zip மறுபெயரிடு எறும்புமறுபெயரிடு
       working-directory: .
 
     - name: மறுபெயரிடு நீக்கு
@@ -26,7 +26,7 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         tag: current
-        artifacts: "ReNamer.zip"
+        artifacts: "App.zip"
         name: மறுபெயரிடு
         body: புதிய மாற்றங்கள் அனைத்து அடங்கும்
 
