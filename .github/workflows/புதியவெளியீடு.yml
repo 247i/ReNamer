@@ -11,7 +11,7 @@ jobs:
       uses: montudor/action-zip@v1
 
     - name: மறுபெயரிடு கட்டு
-      run: zip -qq -r மறுபெயரிடு.zip மறுபெயரிடு
+      run: zip -qq -r ReNamer.zip மறுபெயரிடு
       working-directory: .
 
 
@@ -26,13 +26,13 @@ jobs:
     - name: மறுபெயரிடு வெளியீடு
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "மறுபெயரிடு.zip"
+        artifacts: "ReNamer.zip"
         tag: ReNamer
         name: மறுபெயரிடு
         body: புதிய மாற்றங்கள் அனைத்து அடங்கும்
 
     - name: எறும்புமறுபெயரிடு கட்டு
-      run: zip -qq -r எறும்புமறுபெயரிடு.zip எறும்புமறுபெயரிடு
+      run: zip -qq -r AntRenamer.zip எறும்புமறுபெயரிடு
       working-directory: .
 
 
@@ -47,7 +47,7 @@ jobs:
     - name: எறும்புமறுபெயரிடு வெளியீடு
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "எறும்புமறுபெயரிடு.zip"
+        artifacts: "AntRenamer.zip"
         tag: AntRenamer
         name: எறும்புமறுபெயரிடு
         body: புதிய மாற்றங்கள் அனைத்து அடங்கும்
